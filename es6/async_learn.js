@@ -43,7 +43,8 @@ function doSth2(thing){
 
 
 // 使用async + await 很简单的写法
-
+// await 就是等待完成之后再执行后面的
+// 这样就是把异步回调的操作变成同步的写法了
 async function test(){
       const res1 = await doSth2("reading");
       console.log(res1);
